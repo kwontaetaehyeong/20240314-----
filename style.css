@@ -4,7 +4,7 @@ header {
   left: 0;
   width: 100%;
   padding: 5px 10%;
-  background-color: rgba(208, 50, 60, 0);
+  background-color: tomato;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -41,7 +41,7 @@ header {
   font-size: 18px;
   color: #ededed;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 50;
   margin-left: 35px;
   transition: 0.3s;
 }
@@ -68,13 +68,23 @@ header {
   height: 100vh;
   display: flex;
   align-items: center;
-  padding: 0 10%;
-  background: url(league.mp4) no-repeat center;
-  background-size: cover;
+  padding: 0%;
+  margin-top: 170px;
+  position: relative;
+}
+
+.background video {
+  position: fixed;
+  left: -87px;
+  top: 110px;
+  width: 80%;
+  height: 843px;
 }
 
 .home-content {
-  max-width: 600px;
+  position: relative;
+  left: 1550px;
+  top: 500px;
 }
 
 .home-content h1 {
@@ -100,6 +110,8 @@ header {
   font-size: 32px;
   font-weight: 700;
   position: relative;
+  left: 0px;
+  top: 50px;
 }
 
 .home-content h2::before {
@@ -120,7 +132,6 @@ header {
   width: 345px;
   height: 50px;
 }
-
 .btn-box a {
   display: flex;
   justify-content: center;
@@ -139,6 +150,8 @@ header {
   overflow: hidden;
   background-color: white;
   position: relative;
+  left: 1550px;
+  top: 550px;
 }
 
 .btn-box a::before {
